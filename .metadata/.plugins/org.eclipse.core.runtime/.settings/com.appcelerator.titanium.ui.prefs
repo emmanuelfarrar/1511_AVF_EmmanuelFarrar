@@ -1,0 +1,7 @@
+=run
+LAST_LAUNCH_TIMESTAMP=1446063454310
+Test_01\:launchMode=run
+Test_01\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.titanium_1_WVGA800
+eclipse.preferences.version=1
+preference.show.console.onError=true
+preference.studio.perspective.version=103
