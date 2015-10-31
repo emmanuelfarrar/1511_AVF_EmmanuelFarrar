@@ -1,5 +1,5 @@
 
-Sat Oct 31 2015 13:05:51 GMT+0600 (ALMT)
+Sat Oct 31 2015 13:37:49 GMT+0600 (ALMT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/Mannie/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example --target simulator --ios-version 9.1 --device-family universal --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 1BD6EEAC-889C-425E-96ED-9070D0928054 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50103 --plugin-paths /Users/Mannie/.appcelerator/install/5.0.3/package/node_modules --config-file /var/folders/1l/b8wm7wgd73j9fdc1kk6drd200000gn/T/build-1446275147106.json --no-banner
+  /usr/local/bin/node /Users/Mannie/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example --target simulator --ios-version 9.1 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.1 --device-id 6A09BA0F-188C-480B-89DE-D17ACCFCC66C --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50103 --plugin-paths /Users/Mannie/.appcelerator/install/5.0.3/package/node_modules --config-file /var/folders/1l/b8wm7wgd73j9fdc1kk6drd200000gn/T/build-1446277065994.json --no-banner
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 1BD6EEAC-889C-425E-96ED-9070D0928054
-[TRACE]  [ioslib] Found iOS Simulator UDID 1BD6EEAC-889C-425E-96ED-9070D0928054
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib] Validating iOS Simulator UDID 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
+[TRACE]  [ioslib] Found iOS Simulator UDID 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
 [TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.1
 [INFO]   Symlinked files not supported with iOS 9.1 simulator, forcing files to be copied
@@ -68,9 +68,9 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.1
-[INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: 1BD6EEAC-889C-425E-96ED-9070D0928054
-[DEBUG]  Simulator type: iphone
+[INFO]   Building for iOS Simulator: iPad 2
+[DEBUG]  UDID: 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
+[DEBUG]  Simulator type: ipad
 [DEBUG]  Simulator version: 9.1
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
@@ -84,7 +84,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/1l/b8wm7wgd73j9fdc1kk6drd200000gn/T/build-0fdfde14dbd2fe56ba098e7b07745464f85340d3.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1263.524 sec ago
+[TRACE]  optimizing build, last build was 3182.55 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -168,19 +168,28 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 432ms
+[INFO]   Finished building the application in 2s 19ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
 [TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.1
-[TRACE]  [ioslib] Removing old log file: /Users/Mannie/Library/Developer/CoreSimulator/Devices/1BD6EEAC-889C-425E-96ED-9070D0928054/data/Containers/Data/Application/C3350B82-8FF5-4A40-A4AA-F3441D187A0A/Documents/4a617e0b-d4fb-4ea6-9aaa-7f94dbbf16c9.log
-[TRACE]  [ioslib] iPhone 6 Simulator already running with the correct udid
-[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/Mannie/Library/Logs/CoreSimulator/1BD6EEAC-889C-425E-96ED-9070D0928054/system.log
+[TRACE]  [ioslib] iPad 2 Simulator is running, but not in a booted state, stopping simulator
+[TRACE]  [ioslib] Tailing iPad 2 Simulator system log: /Users/Mannie/Library/Logs/CoreSimulator/6A09BA0F-188C-480B-89DE-D17ACCFCC66C/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
+[TRACE]  [ioslib] iPad 2 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 6A09BA0F-188C-480B-89DE-D17ACCFCC66C
+[TRACE]  [ioslib] iPad 2 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/Mannie/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 1BD6EEAC-889C-425E-96ED-9070D0928054 /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/iphone/build/Products/Debug-iphonesimulator/Week1_CommonJS_Example.app
+[TRACE]  [ioslib] iPad 2 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 6A09BA0F-188C-480B-89DE-D17ACCFCC66C /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/iphone/build/Products/Debug-iphonesimulator/Week1_CommonJS_Example.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 1BD6EEAC-889C-425E-96ED-9070D0928054 com.weekone.commonjs
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 6A09BA0F-188C-480B-89DE-D17ACCFCC66C com.weekone.commonjs
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/Mannie/Library/Developer/CoreSimulator/Devices/1BD6EEAC-889C-425E-96ED-9070D0928054/data/Containers/Data/Application/515BB6C4-F59F-459F-88FD-BCFDE74924F7/Documents/4a617e0b-d4fb-4ea6-9aaa-7f94dbbf16c9.log
+[TRACE]  [ioslib] Found application log file: /Users/Mannie/Library/Developer/CoreSimulator/Devices/6A09BA0F-188C-480B-89DE-D17ACCFCC66C/data/Containers/Data/Application/D7BDA5CE-079C-410D-AD1F-7CAE5F714E1F/Documents/4a617e0b-d4fb-4ea6-9aaa-7f94dbbf16c9.log
+[TRACE]  [Week1_CommonJS_Example] assertion failed: 15B42 13B137: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
+[TRACE]  [Week1_CommonJS_Example] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [Week1_CommonJS_Example] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [Week1_CommonJS_Example] <CATransformLayer: 0x7be40e10> - changing property masksToBounds in transform-only layer, will have no effect
+[TRACE]  [Week1_CommonJS_Example] <CATransformLayer: 0x7c943e30> - changing property masksToBounds in transform-only layer, will have no effect
+[TRACE]  [Week1_CommonJS_Example] <CATransformLayer: 0x7c945110> - changing property masksToBounds in transform-only layer, will have no effect

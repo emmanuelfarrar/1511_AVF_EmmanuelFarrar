@@ -1,0 +1,42 @@
+//initalization Intro Window
+
+exports.init = function(){
+	var introWindow, introWindowCopy, usageButton, usageWindowView;
+	
+	//Introduction Window
+	introWindow = Ti.UI.createWindow({
+		title: "Introduction",
+		backgroundColor: "#fafafa"
+	});
+	
+	//Main body copy for introWindow
+	introWindowCopy = Ti.UI.createLabel({
+		text: 'CommonJS modularization is a method of breaking up code '
+		+ 'into separate focused "modules". When used correctly this '
+		+ 'helps keep code maintainable by grouping relevant code '
+		+ 'together in separate JavaScript files.',
+		font: {fontSize: "16sp"},
+		color: "#333",
+		top: 16, left: 16
+	});
+	
+	usageButton = Ti.UI.createButton({
+		title: "Usage",
+		top: 350
+	});
+	
+	Ti.API.debug('Adding componets to introWindow');
+	introWindow.add(introWindowCopy, usuageButton);
+	
+	Ti.API.debug('Opening introWindow');
+	navWindow.openWindow(introWindow);
+	
+	//Import Usage Window Module
+	usageWindowView = require("usageWindowView");
+	
+	//Usage button click event
+	usageButton.addEventListener("click", function(){
+		Ti.API.debug("Usage button has been clicked.");
+		usageWindowView.init();
+	});
+};
