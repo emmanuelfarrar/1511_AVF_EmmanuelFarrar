@@ -57,3 +57,45 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/Mannie/D
 
 !ENTRY com.appcelerator.titanium.android.core 4 0 2015-10-28 22:25:02.780
 !MESSAGE There are no Android devices connected
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:46:03.957
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:46:03.961
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:50:06.036
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:50:06.037
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:51:01.979
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:51:01.980
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:54:59.706
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 08:54:59.707
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:03:36.024
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:03:36.027
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:04:45.779
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:04:45.781
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:06:00.753
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-31 09:06:00.754
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
