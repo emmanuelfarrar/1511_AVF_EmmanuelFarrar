@@ -1,0 +1,21 @@
+//Emmanuel Farrar
+//AVF 1511
+//Week 1 - Project "Weather App"
+/*
+ * The following code represents my knowledge and usage of the Ti.Network, Geolocation.....
+ */
+
+Ti.UI.setBackgroundColor("#000");
+
+var navWindow, mainWindow;
+
+//requiring modules
+mainWindow = require('mainWindowView').mainWindow;
+
+//define navigation window
+navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+//open navigation window
+navWindow.open();

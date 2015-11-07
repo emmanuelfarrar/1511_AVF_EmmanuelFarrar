@@ -1,0 +1,7 @@
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/com/weekone/commonjs/AssetCryptImpl.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/com/weekone/commonjs/R.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/com/weekone/commonjs/Week1_commonjs_exampleActivity.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/com/weekone/commonjs/Week1_commonjs_exampleAppInfo.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/com/weekone/commonjs/Week1_commonjs_exampleApplication.java"
+"/Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Week1_CommonJS_Example/build/android/gen/ti/modules/titanium/ui/R.java"

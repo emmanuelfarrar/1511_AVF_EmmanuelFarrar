@@ -1,0 +1,18 @@
+/*
+ * 1) set up function and export said function 
+ * 
+ */
+
+var getGeo = function(){
+	console.log("GetGeofunction!");
+	//Ti.Geolocation.purpose = "Your location is needed to gather lat/long coords.";
+	Ti.Geolocation.getCurrentPosition(function(e){
+		console.log(e); //good idea to console.log to see whats available to the dev
+		var lat = e.coords.latitude;
+		var lng = e.coords.longitude;
+		// var ui = require("ui");
+		// ui.buildUi(lat, lng);
+	}); //getCurrentPosition closing
+};
+
+exports.getGeo = getGeo;

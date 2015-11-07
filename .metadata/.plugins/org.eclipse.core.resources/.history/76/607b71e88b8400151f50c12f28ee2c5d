@@ -1,0 +1,34 @@
+var api = function(obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8){
+	
+	var url = "http://api.wunderground.com/api/11b9d6882c6b173b/conditions/q/" + obj2 + "," + obj3 + ","
+	+ obj4 + "," + obj5 + "," + obj6 + "," + obj7 + "," + obj8 + ".json";
+	console.log(url);
+	if (Ti.Network.online) {
+		var getData = Ti.Network.createHTTPClient();
+		getData.onload = function(e) {
+			console.log(e);
+			//this is  the raw data string returned from the URL request
+			var json = JSON.parse(this.responseText);
+			
+			//convert the string to JS object notation
+			var city = json.current_observation.display_location.city;
+			var state = json.current_observation.display_location.state;
+			var tempf = json.current_observation.temp_f;
+			var tempc = json.current_observation.temp_c;
+			var wind = json.current_observation.wind_mph;
+			var windDir = json.current_observation.wind_dir;
+			var status = json.current_observation.icon;
+			var wImage = json.current_observation.icon_url;
+			
+			var ui = require("ui");
+			ui.buildUi(city, state, tempf, tempc, wind, windDir, status, wImage);
+		};//getData.onload closing
+		getData.open("GET", url);
+		getData.send();
+		alert("Network Connection successful");
+	} else {
+		alert("Network Connection UNsuccessful");
+	}; //if else closing
+	
+};
+exports.api = api;

@@ -1,0 +1,96 @@
+// //requires
+// var buildUi = require("ui");
+
+var win = Titanium.UI.createWindow({  
+    title:'Weather App',
+    backgroundImage: 'images/bg_01.jpg'
+});
+
+var upperView = Ti.UI.createView({
+	top: 30,
+	width: "95%",
+	height: "40%",
+	borderColor: "green"
+});
+
+var lowerView = Ti.UI.createView({
+	top: 300,
+	width: "95%",
+	height: "30%",
+	borderColor: "blue"
+});
+
+var cityLabel = Ti.UI.createLabel({
+	text: "location",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "white",
+	font: {fontSize: 24, fontFamily: "arial", fontWeight: "bold"},
+	top: 10
+});
+
+var wxDescLabel = Ti.UI.createLabel({
+	text: "wxDesc",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "white",
+	font: {fontSize: 18, fontFamily: "arial", fontWeight: "bold"},
+	top: 50
+});
+
+var curTempLabel = Ti.UI.createLabel({
+	text: 'Current Temp',
+	color: "blue",
+	font: {fontSize: 96, fontFamily: "arial", fontWeight: "bold"},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	bottom: 0
+});
+
+var currentDayLabel = Ti.UI.createLabel({
+	text: "Current Day",
+	color: "white",
+	font: {fontSize: 18, fontFamily: "arial", fontWeight: "bold"},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	top: 20
+});
+
+var dewpointLabel = Ti.UI.createLabel({
+	text: "Dewpoint: ",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "arial", fontWeight: "bold"},
+	top:60, left: 10
+});
+
+var precipLabel = Ti.UI.createLabel({
+	text: "Precip: ",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "arial", fontWeight: "bold"},
+	top:80, left: 10
+});
+
+var humidLabel = Ti.UI.createLabel({
+	text: "Humidity: ",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "arial", fontWeight: "bold"},
+	top:100, left: 10
+});
+
+var windSpLabel = Ti.UI.createLabel({
+	text: "Wind Speed: ",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "arial", fontWeight: "bold"},
+	top:120, left: 10
+});
+
+var windTypeLabel = Ti.UI.createLabel({
+	text: "Wind Desc: ",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "arial", fontWeight: "bold"},
+	top:140, left: 10
+});
+
+
+upperView.add(cityLabel, wxDescLabel, curTempLabel);
+lowerView.add(currentDayLabel, dewpointLabel, precipLabel, humidLabel, windSpLabel, windTypeLabel);
+win.add(upperView, lowerView);
+win.open();
+
+

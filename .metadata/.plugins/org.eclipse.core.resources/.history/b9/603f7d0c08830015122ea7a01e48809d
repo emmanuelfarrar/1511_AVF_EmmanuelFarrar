@@ -1,0 +1,86 @@
+// this sets the background color of the master UIView (when there are no windows/tab groups on it)
+Titanium.UI.setBackgroundColor('#000');
+
+
+//
+// create base UI tab and root window
+//
+var win = Titanium.UI.createWindow({  
+    title:'Weather App',
+    backgroundColor:'#fff'
+});
+
+
+var upperView = Ti.UI.createView({
+	top: "30",
+	bottom: "100",
+	width: "95%",
+	//height: "50",
+	borderColor: "green"
+});
+
+var lowerView = Ti.UI.createView({
+	top: "210",
+	bottom: "25%",
+	width: "95%",
+	//height: "30%",
+	borderColor: "blue"
+});
+
+var cityLabel = Ti.UI.createLabel({
+	text: "Houston, Texas",
+	color: "white",
+	font: {fontSize: 24, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 10, left: 10
+});
+////////////////////////////////////////////////
+var stateLabel = Ti.UI.createLabel({
+	text: "The State",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 40, left: 10
+});
+
+var tempfLabel = Ti.UI.createLabel({
+	text: "Temp F",
+	color: "white",
+	font: {fontSize: 48, fontFamily: "helvetica", fontWeight: "bold"},
+	bottom: 40, left: 10
+});
+
+var tempcLabel = Ti.UI.createLabel({
+	text: "Temp C",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "helvetica", fontWeight: "bold"},
+	bottom: 20, left: 10
+});
+
+var windLabel = Ti.UI.createLabel({
+	text: "Wind MPH",
+	color: "white",
+	font: {fontSize: 20, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 10, left: 10
+});
+
+var windDirLabel = Ti.UI.createLabel({
+	text: "Wind Direction",
+	color: "white",
+	font: {fontSize: 16, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 40, left: 10
+});
+
+var statusLabel = Ti.UI.createLabel({
+	text: "Status",
+	color: "white",
+	font: {fontSize: 28, fontFamily: "helvetica", fontWeight: "bold"},
+	bottom: 40, left: 10
+});
+
+
+
+upperView.add();
+lowerView.add();
+win.add(upperView, lowerView);
+win.open();
+
+

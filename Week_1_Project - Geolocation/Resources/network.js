@@ -1,0 +1,52 @@
+var geoInfo = require("geo");
+geoInfo.getGeo();
+		
+var api = function(lat, lng){
+	
+	//var url = "http://api.wunderground.com/api/11b9d6882c6b173b/conditions/q/37.8,-122.4.json";
+	var url = "http://api.wunderground.com/api/11b9d6882c6b173b/conditions/q/" + lat + "," + lng + ".json";
+	console.log(url);
+	
+	if (Ti.Network.online) {
+		
+		
+		
+		var getData = Ti.Network.createHTTPClient();
+		
+		getData.onload = function(e) {
+			console.log(e);
+			//this is  the raw data string returned from the URL request
+			var json = JSON.parse(this.responseText);
+			console.log(json);
+			
+			//convert the string to JS object notation
+			var locInfo = json.current_observation.display_location.city;
+			var wxDesc = json.current_observation.weather;
+			var curTemp = json.current_observation.temp_f;
+			var currentDay = json.current_observation.local_time_rfc822;
+			var dewpoint = json.current_observation.dewpoint_f;
+			var precip = json.current_observation.precip_today_in;
+			var humid = json.current_observation.relative_humidity;
+			var windSp = json.current_observation.wind_mph;
+			var windType = json.current_observation.wind_string;
+			var icon = json.current_observation.image.url;
+			
+			
+			console.log(locInfo, wxDesc, curTemp, currentDay, dewpoint, precip, humid, windSp, windType, icon);
+			
+			//passing data to ui.js
+			var ui = require("ui");
+			ui.buildUi(locInfo, wxDesc, curTemp, currentDay, dewpoint, precip, humid, windSp, windType, icon);
+			
+		};//getData.onload closing
+		
+		getData.open("GET", url);
+		getData.send();
+		
+	} else {
+		alert("Network Connection UNsuccessful");
+	}; //if else closing
+	
+};
+
+exports.api = api;

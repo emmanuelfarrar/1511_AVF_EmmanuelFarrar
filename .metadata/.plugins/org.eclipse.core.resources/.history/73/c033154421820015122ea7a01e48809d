@@ -1,0 +1,5 @@
+var buildUI = function(){
+	
+};
+
+exports.buildUI = buildUI;

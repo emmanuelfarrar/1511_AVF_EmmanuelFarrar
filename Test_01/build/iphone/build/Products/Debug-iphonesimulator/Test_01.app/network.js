@@ -1,0 +1,35 @@
+var api = function(lat, lng){
+	
+	var url = "http://api.wunderground.com/api/11b9d6882c6b173b/conditions/q/" + lat + ","
+	+ lng + ".json";
+	console.log(url);
+	if (Ti.Network.online) {
+		var getData = Ti.Network.createHTTPClient();
+		getData.onload = function(e) {
+			console.log(e);
+			//this is  the raw data string returned from the URL request
+			var json = JSON.parse(this.responseText);
+			
+			//convert the string to JS object notation
+			var location = json.current_observation.display_location.full;
+			var wxDesc = json.current_observation.weather;
+			var curTemp = json.current_observation.temperature_string;
+			var currentDay = json.current_observation.local_time_rfc822;
+			var dewpoint = json.current_observation.dewpointLabel;
+			var precip = json.current_observation.preip_today_string;
+			var humid = json.current_observation.relative_humidity;
+			var windSp = json.current_observation.wind_mph;
+			var windType = json.current_observation.wind_string;
+			
+			var ui = require("ui");
+			ui.buildUi(location, wxDesc, curTemp, currentDay, dewpoint, precip, humid, windSp, windType);
+		};//getData.onload closing
+		getData.open("GET", url);
+		getData.send();
+		alert("Network Connection successful");
+	} else {
+		alert("Network Connection UNsuccessful");
+	}; //if else closing
+	
+};
+exports.api = api;

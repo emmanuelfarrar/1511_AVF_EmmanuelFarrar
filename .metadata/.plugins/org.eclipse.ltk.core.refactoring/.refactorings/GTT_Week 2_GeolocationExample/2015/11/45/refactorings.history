@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GTT_Week 2_GeolocationExample/Resources/images/Virgo_BackgroundModel.jpg&apos; to &apos;bg_01.jpg&apos;" description="Rename resource &apos;Virgo_BackgroundModel.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/images/Virgo_BackgroundModel.jpg" name="bg_01.jpg" stamp="1446864368919" updateReferences="true"/>
+</session>

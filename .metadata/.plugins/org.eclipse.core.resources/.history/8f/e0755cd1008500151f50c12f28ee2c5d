@@ -1,0 +1,14 @@
+// geo.js
+
+var runGeo = function() {
+	Ti.Geolocation.purpose = "This app requires your location to gather lat/long coords.";
+	Ti.Geolocation.getCurrentPosition(function(e){
+		console.log(e); //good idea to console.log to see whats available to the dev
+		var lat = e.coords.latitude;
+		var lng = e.coords.longitude;
+		var ui = require("ui");     //what is this and where is this?
+		ui.buildUi(lat, lng);
+	}); //getCurrentPosition closing
+}; //runGeo closing
+
+exports.runGeoCode = runGeo;

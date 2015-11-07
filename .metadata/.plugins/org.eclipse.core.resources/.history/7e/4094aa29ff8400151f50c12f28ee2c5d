@@ -1,0 +1,62 @@
+var geoInfo = function() {
+	
+	Ti.Geolocation.addEventListener('authorization', function(e){
+		Ti.API.info('authorization event: ' + JSON.stringify(e));
+	});
+	
+	function printAuthorizaedResults(authorization){
+		
+		Ti.API.info("Authorization: " + authorization);
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_UNKNOWN){
+			return "Location Services Authorized";
+		}
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_AUTHORIZED){
+			return "Location Services Authorized";
+		}
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_ALWAYS){
+			return "Location Services Authorized";
+		}
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_WHEN_IN_USE){
+			return "Location Services Authorized";
+		}
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_DENIED){
+			return "Location Services Denied";
+		}
+		
+		if (authorization === Ti.Geolocation.AUTHORIZATION_RESTRICTED){
+			return "Location Services Restricted";
+		}
+		
+		return "Error: No authorization value found";
+	};
+	
+	Ti.Geolocation.getCurrentPosition(function(e){
+		if (!e.success || e.error){
+			Ti.API.info("Code translation: " + translateErrorCode(e.code));
+			alert("Error " + JSON.stringfy(e.error));
+			return;
+		}
+		
+		var longitude = e.coords.longitude;
+		var latitude = e.coords.latitude;
+		var altitude = e.coords.altitude;
+		var heading = e.ecoords.heading;
+		var accuracy = e.coords.accuracy;
+		var speed = e.coords.speed;
+		var timestamp = e.coords.timestamp;
+		var altitudeAccuracy = e.coords.altitudeAccuracy;
+		Ti.API.info('speed ' + speed);
+		
+		var api = require("network");
+		api.api(longitude, latitude);
+		
+		Ti.API.info('geo - current location: '+ new Date(timestamp) + 'long ' + longitude + 'lat ' + latitude + 'accuracy' + accuracy);
+	});
+};
+
+exports.geoInfo = geoInfo;

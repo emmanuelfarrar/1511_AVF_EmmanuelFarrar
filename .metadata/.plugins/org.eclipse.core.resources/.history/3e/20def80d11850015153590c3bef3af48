@@ -1,0 +1,32 @@
+//Emmanuel Farrar
+//AVF 1511
+//Week 1 - Project "Weather App"
+// File: app.js
+/*
+ * The following code represents my knowledge and usage of the Ti.Network, Geolocation.....
+ */
+
+//requiring modules
+var getAPI = require("network");
+var getGeo = require("geo");
+
+getAPI.api();
+getGeo.getGeo();
+
+
+
+
+/*
+var navWindow, mainWindow;
+
+//requiring modules
+mainWindow = require('win').mainWindow;
+
+//define navigation window
+navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+//open navigation window
+navWindow.open();
+*/

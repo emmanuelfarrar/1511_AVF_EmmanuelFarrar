@@ -1,0 +1,10 @@
+/*
+ * 1) set up function and export said function 
+ * 
+ */
+
+var getGeo = function(){
+	console.log("GetGeofunction!");
+};
+
+exports.getGeo = getGeo;

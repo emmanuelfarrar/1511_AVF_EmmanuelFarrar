@@ -1,0 +1,187 @@
+
+Sat Nov 07 2015 06:09:28 GMT+0200 (IST)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.1
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.10.13
+  npm Version                 = 1.3.2
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.0.2.GA
+  SDK Path                    = /Users/Mannie/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/Mannie/.appcelerator/install/5.0.4/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01 --target simulator --ios-version 9.1 --device-family universal --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 1BD6EEAC-889C-425E-96ED-9070D0928054 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 59176 --plugin-paths /Users/Mannie/.appcelerator/install/5.0.4/package/node_modules --config-file /var/folders/1l/b8wm7wgd73j9fdc1kk6drd200000gn/T/build-1446869365503.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib] Found iOS Simulator UDID 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib]   iOS     = 9.1
+[TRACE]  [ioslib] Autoselected Xcode: 7.1
+[INFO]   Symlinked files not supported with iOS 9.1 simulator, forcing files to be copied
+[DEBUG]  Detecting modules in /Users/Mannie/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 3.0.3 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/facebook/3.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.4 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.4
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.2.2 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.map/2.2.2
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/Mannie/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/Mannie/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/Mannie/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.0.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.0.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 3.1.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/facebook/3.1.1
+[DEBUG]  Detected iphone module: facebook 3.2.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/facebook/3.2.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.0.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.0.4 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.map/2.0.4
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.map 2.3.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.1
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.touchid 1.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/Mannie/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/Mannie/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/Mannie/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.1
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: 1BD6EEAC-889C-425E-96ED-9070D0928054
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.1
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/1l/b8wm7wgd73j9fdc1kk6drd200000gn/T/build-2c5d7367e0d93836a4b32eada7250106e214d857.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 1740.27 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Test_01.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Test_01.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Test_01_Prefix.pch
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Test_01.xcodeproj/xcshareddata/xcschemes/Test_01.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/debugger.plist
+[DEBUG]  Skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/images/bg_01.jpg
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/Resources/app.js => /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/app.js
+[DEBUG]  Overwriting /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/Resources/geo.js => /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/geo.js
+[DEBUG]  Overwriting /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/Resources/network.js => /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/network.js
+[DEBUG]  Overwriting /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/Resources/ui.js => /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/ui.js
+[DEBUG]  Overwriting /Users/Mannie/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 448ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 1BD6EEAC-889C-425E-96ED-9070D0928054
+[TRACE]  [ioslib]   iOS     = 9.1
+[TRACE]  [ioslib] Autoselected Xcode: 7.1
+[TRACE]  [ioslib] Removing old log file: /Users/Mannie/Library/Developer/CoreSimulator/Devices/1BD6EEAC-889C-425E-96ED-9070D0928054/data/Containers/Data/Application/BD3AB9A2-3464-463D-A374-B723A98BC482/Documents/5a846ae6-b72b-49c7-9ccc-bd044eacb36e.log
+[TRACE]  [ioslib] iPhone 6 Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/Mannie/Library/Logs/CoreSimulator/1BD6EEAC-889C-425E-96ED-9070D0928054/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/Mannie/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 1BD6EEAC-889C-425E-96ED-9070D0928054 /Users/Mannie/Desktop/AVF1511/GithubRepo/1511_AVF_EmmanuelFarrar/Test_01/build/iphone/build/Products/Debug-iphonesimulator/Test_01.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 1BD6EEAC-889C-425E-96ED-9070D0928054 com.emmanuelfarrar.test01
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/Mannie/Library/Developer/CoreSimulator/Devices/1BD6EEAC-889C-425E-96ED-9070D0928054/data/Containers/Data/Application/FE51BC81-94BC-4656-B8CC-A29759D21AB9/Documents/5a846ae6-b72b-49c7-9ccc-bd044eacb36e.log

@@ -1,0 +1,104 @@
+// this sets the background color of the master UIView (when there are no windows/tab groups on it)
+Titanium.UI.setBackgroundColor('#000');
+
+
+//
+// create base UI tab and root window
+//
+var win = Titanium.UI.createWindow({  
+    title:'Weather App',
+    backgroundColor:'#fff'
+});
+
+
+var upperView = Ti.UI.createView({
+	top: 30,
+	//bottom: 300,
+	width: "95%",
+	height: "40%",
+	borderColor: "green"
+});
+
+var lowerView = Ti.UI.createView({
+	top: 300,
+	//bottom: "25%",
+	width: "95%",
+	height: "30%",
+	borderColor: "blue"
+});
+
+var cityLabel = Ti.UI.createLabel({
+	text: "Houston, Texas",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "blue",
+	font: {fontSize: 24, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 10
+});
+
+var wxDescLabel = Ti.UI.createLabel({
+	text: "Partly Cloudy",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "blue",
+	font: {fontSize: 18, fontFamily: "helvetica", fontWeight: "bold"},
+	top: 50
+});
+
+var curTempLabel = Ti.UI.createLabel({
+	text: "77" + "°",
+	color: "blue",
+	font: {fontSize: 96, fontFamily: "helvetica", fontWeight: "bold"},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	bottom: 0
+});
+////////////////////////////////////////////////
+var currentDayLabel = Ti.UI.createLabel({
+	text: "Wednesday",
+	color: "green",
+	font: {fontSize: 16, fontFamily: "helvetica", fontWeight: "bold"},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	top: 20
+});
+
+var tempHiLabel = Ti.UI.createLabel({
+	text: "70"+ " || ",
+	color: "green",
+	font: {fontSize: 12, fontFamily: "helvetica", fontWeight: "bold"},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	top:50,
+});
+
+var tempLoLabel = Ti.UI.createLabel({
+	text: "40",
+	color: "green",
+	font: {fontSize: 12, fontFamily: "helvetica", fontWeight: "bold"},
+	top:50, right: tempHiLabel.textAlign
+});
+
+var percipLabel = Ti.UI.createLabel({
+	text: "N/A",
+	color: "green",
+	font: {fontSize: 12, fontFamily: "helvetica", fontWeight: "bold"},
+	top:80, left: 10
+});
+
+var humidLabel = Ti.UI.createLabel({
+	text: "20" + "%",
+	color: "green",
+	font: {fontSize: 12, fontFamily: "helvetica", fontWeight: "bold"},
+	top:90, left: 10
+});
+
+var windSpLabel = Ti.UI.createLabel({
+	text: "130" + " mph",
+	color: "green",
+	font: {fontSize: 12, fontFamily: "helvetica", fontWeight: "bold"},
+	top:100, left: 10
+});
+
+
+upperView.add(cityLabel, wxDescLabel, curTempLabel);
+lowerView.add(currentDayLabel, tempHiLabel, tempLoLabel, percipLabel, humidLabel, windSpLabel);
+win.add(upperView, lowerView);
+win.open();
+
+

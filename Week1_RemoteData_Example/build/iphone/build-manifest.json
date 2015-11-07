@@ -3021,9 +3021,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "8bd162b2ae60c1e1a42d2f95c5b77ead",
-			"mtime": "2015-09-30T19:12:20.000Z",
-			"size": 493
+			"hash": "d12f1728a129ab16e9d0b44ff2d08bac",
+			"mtime": "2015-11-07T04:26:00.000Z",
+			"size": 164421
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3059,7 +3059,7 @@
 	"publisher": "Mannie",
 	"url": "http://",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2015 by Mannie",
 	"guid": "abc76bfe-a93f-48d6-9666-5959c1f05fad",
 	"skipJSMinification": true,
